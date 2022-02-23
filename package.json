@@ -15,7 +15,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "stylelint \"**/*.css\" && eslint . && prettier . --check && tsc --noEmit",
+    "lint": "stylelint \"**/*.css\" && eslint . && prettier . --check",
     "lint-fix": "stylelint \"**/*.css\" --fix && eslint . --fix && prettier . --check",
     "prepare": "husky install"
   },
