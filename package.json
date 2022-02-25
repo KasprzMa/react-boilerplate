@@ -12,9 +12,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "lint": "stylelint \"**/*.css\" && eslint . && prettier . --check",
     "lint-fix": "stylelint \"**/*.css\" --fix && eslint . --fix && prettier . --check",
     "prepare": "husky install"
